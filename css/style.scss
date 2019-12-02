@@ -93,7 +93,7 @@ a{
     .linky {
         padding: 10px 25px;
         position: relative;
-        color: #fff;
+        color: $font-color;
         
     }
     
@@ -104,11 +104,9 @@ a{
         width: 100%;
         top: 5px;
         right: 1px;
-        background-color: $font-color;
+        background-color: $background-color;
         z-index: -1;
-        transition: transform .2s ease-in-out;
-        border-bottom: red solid 5px;
-        
+        transition: all .2s ease-in-out;
     }
     
     .linky::after {
@@ -118,14 +116,19 @@ a{
         left: 0;
         height: 100%;
         width: 100%;
+        transform: rotate(-3deg);
         border: 1px solid $font-color;
-        
+    }
+
+    .linky:hover{
+        color: #fff;
     }
     
     .linky:hover::before {
         transform: translate(2px, -4px);
+        background-color: $red-color;
+  
     }
-    
 }
 
 .footer{

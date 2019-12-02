@@ -103,7 +103,7 @@ a {
 .main .linky {
   padding: 10px 25px;
   position: relative;
-  color: #fff;
+  color: #000;
 }
 
 .main .linky::before {
@@ -113,13 +113,10 @@ a {
   width: 100%;
   top: 5px;
   right: 1px;
-  background-color: #000;
+  background-color: #fefefe;
   z-index: -1;
-  -webkit-transition: -webkit-transform .2s ease-in-out;
-  transition: -webkit-transform .2s ease-in-out;
-  transition: transform .2s ease-in-out;
-  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  border-bottom: red solid 5px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .main .linky::after {
@@ -129,12 +126,19 @@ a {
   left: 0;
   height: 100%;
   width: 100%;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
   border: 1px solid #000;
+}
+
+.main .linky:hover {
+  color: #fff;
 }
 
 .main .linky:hover::before {
   -webkit-transform: translate(2px, -4px);
           transform: translate(2px, -4px);
+  background-color: red;
 }
 
 .footer {
