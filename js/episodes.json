@@ -1,0 +1,49 @@
+{
+    "episodes":[
+        {
+            "title": "Dirty Kind Eyes or The Jack Johnson of Rock Climbing",
+            "guest": "Alex Romo",
+            "season-number": 1,
+            "season-episode": 1,
+            "runtime": 61,
+            "date-uploaded": "2019-09-22",
+            "image": "https://medias.podcastics.com/podcastics/episodes/87/artwork/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-rich-chocolaty-goodness.jpg.5f6f6543428e7494d5ae0679b7679fd1.jpg",
+            "social-media":{
+                "spotify": "https://open.spotify.com/episode/2bQgFjpHbGuZynDXK0bv4B",
+                "youtube": "",
+                "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
+                "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
+            }
+        },
+        {
+            "title": "Tijuana Mi Amor",
+            "guest": "Argenis García",
+            "season-number": 1,
+            "season-episode": 2,
+            "runtime": 77,
+            "date-uploaded": "2019-10-06",
+            "image": "https://medias.podcastics.com/podcastics/episodes/87/artwork/te-amo-tijuana-rich-chocolaty-goodness.jpg.b2e6f1d0f2d5c249ef3f39a372a81f0f.jpg",
+            "social-media":{
+                "spotify": "https://open.spotify.com/episode/2bQgFjpHbGuZynDXK0bv4B",
+                "youtube": "",
+                "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
+                "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
+            }
+        },
+        {
+            "title": "Oedipal Dream or Peppers In Exile",
+            "guest": "Pedro Almeida",
+            "season-number": 1,
+            "season-episode": 3,
+            "runtime": 91,
+            "date-uploaded": "2019-10-21",
+            "image": "https://medias.podcastics.com/podcastics/episodes/87/artwork/oedipal-dream-or-peppers-in-exile-rich-chocolaty-goodness.jpg.f2f149792baa8a4f9de1785b5f10f637.jpg",
+            "social-media":{
+                "spotify": "https://open.spotify.com/episode/2bQgFjpHbGuZynDXK0bv4B",
+                "youtube": "",
+                "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
+                "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
+            }
+        }
+    ]
+}
