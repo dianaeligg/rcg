@@ -119,6 +119,7 @@ a {
   transition: -webkit-transform .2s ease-in-out;
   transition: transform .2s ease-in-out;
   transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  border-bottom: red solid 5px;
 }
 
 .main .linky::after {
