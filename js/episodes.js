@@ -5,16 +5,14 @@ function loadJSON(jsonName){
     $.getJSON(jsonName, json => {
         episodes = json.episodes; 
         console.log(episodes);
-        episodes.sort(sortEpisodes);
+        episodes = episodes.sort(sortEpisodes);
+        console.log(episodes);
         fillEpisodes(episodes);
     });
 }
 
 function sortEpisodes(a,b){
-    let d1 = moment(a["date-uploaded"]);
-    let d2 = moment(b["date-uploaded"]);
-    console.log(d1.diff(d2, 'days') < 0);
-    return d1.diff(d2,'days') < 0;
+    return new Date(b["date-uploaded"]) - new Date(a["date-uploaded"]);
 }
 
 function fillEpisodes(episodes){

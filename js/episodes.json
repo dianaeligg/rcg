@@ -44,6 +44,51 @@
                 "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
                 "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
             }
+        },
+        {
+            "title": "Cats, Gnats and Dads",
+            "guest": "Miguel Arce",
+            "season-number": 1,
+            "season-episode": 4,
+            "runtime": 113,
+            "date-uploaded": "2019-11-03",
+            "image": "https://medias.podcastics.com/podcastics/episodes/87/artwork/1316584169_cats-gnats-and-dads-rich-chocolaty-goodness.jpg.1055769b9c04f6fed7c5da18634e4d64.jpg",
+            "social-media":{
+                "spotify": "https://open.spotify.com/episode/2bQgFjpHbGuZynDXK0bv4B",
+                "youtube": "",
+                "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
+                "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
+            }
+        },
+        {
+            "title": "The Great Iqbal",
+            "guest": "Nabil Iqbal",
+            "season-number": 1,
+            "season-episode": 5,
+            "runtime": 61,
+            "date-uploaded": "2019-11-17",
+            "image": "https://medias.podcastics.com/podcastics/episodes/87/artwork/the-great-iqbal-rich-chocolaty-goodness.jpg.49710821a8dd9dabaa7a621973d89b14.jpg",
+            "social-media":{
+                "spotify": "https://open.spotify.com/episode/2bQgFjpHbGuZynDXK0bv4B",
+                "youtube": "",
+                "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
+                "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
+            }
+        },
+        {
+            "title": "How Do You Feel About Mexican Metalheads?",
+            "guest": "Diana García",
+            "season-number": 1,
+            "season-episode": 6,
+            "runtime": 65,
+            "date-uploaded": "2019-12-02",
+            "image": "https://medias.podcastics.com/podcastics/episodes/87/artwork/1703804197_how-do-you-feel-about-mexican-metalheads-rich-chocolaty-goodness.jpg.88e1240a82bf4fb7f80c0fd0f7b4043b.jpg",
+            "social-media":{
+                "spotify": "https://open.spotify.com/episode/2bQgFjpHbGuZynDXK0bv4B",
+                "youtube": "",
+                "podcast": "https://www.podcastics.com/podcast/episode/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing-3279/",
+                "apple": "https://podcasts.apple.com/fr/podcast/dirty-kind-eyes-or-the-jack-johnson-of-rock-climbing/id1480183858?i=1000450770323"
+            }
         }
     ]
 }

@@ -46,6 +46,9 @@ a{
         display: flex;
         justify-content: center;
     }
+    .nav-col-mid{
+        display:block;
+    }
     .social-media-div{
         margin: auto 0;
         height: 50%;
@@ -66,7 +69,7 @@ a{
         margin: auto;
         font-size: 2.1em;
         // flex: 1;
-        font-family: 'Libre Baskerville', serif;
+        white-space: nowrap;
         text-transform: uppercase;
         img{
             position: absolute;
@@ -143,6 +146,18 @@ a{
 
 .footer{
     margin: 0 12%;
+    .pedro-pointer{
+        border-bottom: 3px solid red;
+    }
+    .pedro-pointer:hover{
+        cursor: url('../images/pedro_pointer.png'),auto;
+    }
+    .ben-pointer{
+        border-bottom: 3px solid red;
+    }
+    .ben-pointer:hover{
+        cursor: url('../images/ben_bw_pointer.png'),auto;
+    }
 }
 
 .floaty{
@@ -173,6 +188,7 @@ a{
     .episode-body{
         flex: 1;
         margin-top: 1.5em;
+        margin-left: 1em;
         .episode-title{
             font-weight: bolder;
             font-size: 1.5em;
