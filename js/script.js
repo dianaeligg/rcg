@@ -5,5 +5,5 @@ function changeImg(x){
 }
 
 function returnImg(x){
-    x.src = "images/rcg_pic.png";
+    x.src = "images/rcg_pic.jpg";
 }
