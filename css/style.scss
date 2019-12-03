@@ -181,6 +181,7 @@ a{
     border-radius: 5px;
     display: flex;
     .episode-image{
+        margin: auto;
         img{
             height: 200px;
         }
@@ -212,6 +213,65 @@ a{
         height: 1em;
         .fa-icon{
             padding: 0 3px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .nav{
+        .main-logo-text{
+            font-size:1.5em;
+        }
+        .nav-menu-text{
+            font-size: 1.2em;
+        }
+        .social-media-div{
+            .fa-icon{
+                font-size: 1.2em;
+            }
+        }
+    }
+    .main{
+        .main-pic{
+            img{
+                width: 600px;
+                height: auto;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+    .nav{
+        .main-logo-text{
+            font-size:1.2em;
+            white-space: pre-wrap;
+        }
+        .nav-menu-text{
+            font-size: 1em;
+        }
+        .social-media-div{
+            .fa-icon{
+                font-size: 1em;
+            }
+        }
+    }
+    .main{
+        .main-pic{
+            img{
+                width: 300px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .episode{
+        .episode-body{
+            font-size: .7em;
+            .episode-title{
+                font-size: 1em;
+            }
         }
     }
 }

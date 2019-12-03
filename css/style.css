@@ -199,6 +199,10 @@ a {
   display: flex;
 }
 
+.episode .episode-image {
+  margin: auto;
+}
+
 .episode .episode-image img {
   height: 200px;
 }
@@ -239,5 +243,47 @@ a {
 
 .episode .episode-social-media .fa-icon {
   padding: 0 3px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .nav .main-logo-text {
+    font-size: 1.5em;
+  }
+  .nav .nav-menu-text {
+    font-size: 1.2em;
+  }
+  .nav .social-media-div .fa-icon {
+    font-size: 1.2em;
+  }
+  .main .main-pic img {
+    width: 600px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav .main-logo-text {
+    font-size: 1.2em;
+    white-space: pre-wrap;
+  }
+  .nav .nav-menu-text {
+    font-size: 1em;
+  }
+  .nav .social-media-div .fa-icon {
+    font-size: 1em;
+  }
+  .main .main-pic img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .episode .episode-body {
+    font-size: .7em;
+  }
+  .episode .episode-body .episode-title {
+    font-size: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
