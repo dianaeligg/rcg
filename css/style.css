@@ -211,13 +211,14 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-top: 1.5em;
+  margin-top: .5em;
   margin-left: 1em;
 }
 
 .episode .episode-body .episode-title {
   font-weight: bolder;
   font-size: 1.5em;
+  width: 90%;
 }
 
 .episode .episode-body .episode-season-info {
@@ -234,11 +235,19 @@ a {
   font-size: .8em;
 }
 
+.episode .episode-body iframe {
+  margin-top: 10px;
+  width: 98%;
+}
+
 .episode .episode-social-media {
   position: relative;
   right: 0px;
   bottom: 0px;
   height: 1em;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
 }
 
 .episode .episode-social-media .fa-icon {

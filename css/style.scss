@@ -188,11 +188,12 @@ a{
     }
     .episode-body{
         flex: 1;
-        margin-top: 1.5em;
+        margin-top: .5em;
         margin-left: 1em;
         .episode-title{
             font-weight: bolder;
             font-size: 1.5em;
+            width: 90%;
         }
         .episode-season-info{
             margin: 5px 10px;
@@ -205,12 +206,17 @@ a{
             margin: 5px 10px;
             font-size: .8em;
         }
+        iframe{
+            margin-top: 10px;
+            width: 98%;
+        }
     }
     .episode-social-media{
         position: relative;
         right: 0px;
         bottom: 0px;
         height: 1em;
+        flex: 0;
         .fa-icon{
             padding: 0 3px;
         }
