@@ -1,22 +1,22 @@
 body {
-  background: #1a1a1a;
+  background: #fefefe;
   margin: 0;
   font-family: 'Libre Baskerville', sans-serif;
-  color: #fefefe;
+  color: #000;
   padding-bottom: 1em;
 }
 
 #container {
   width: 100vw;
   height: 100vh;
-  background: #1a1a1a;
+  background: #fefefe;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 a {
-  color: #fefefe;
+  color: #000;
   text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ a {
 .main .linky {
   padding: 10px 25px;
   position: relative;
-  color: #fefefe;
+  color: #000;
 }
 
 .main .linky::before {
@@ -128,7 +128,7 @@ a {
   width: 100%;
   top: 5px;
   right: 1px;
-  background-color: #1a1a1a;
+  background-color: #fefefe;
   z-index: -1;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -143,11 +143,11 @@ a {
   width: 100%;
   -webkit-transform: rotate(-3deg);
           transform: rotate(-3deg);
-  border: 1px solid #fefefe;
+  border: 1px solid #000;
 }
 
 .main .linky:hover {
-  color: #1a1a1a;
+  color: #fefefe;
 }
 
 .main .linky:hover::before {
