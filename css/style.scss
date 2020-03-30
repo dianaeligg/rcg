@@ -1,5 +1,6 @@
 $background-color: #1a1a1a;
 $font-color: #fefefe;
+$coming-soon-color: #8e8e8e;
 $red-color: red;
 
 body{
@@ -80,10 +81,26 @@ a{
 
     .nav-menu-text{
         font-size: 1.5em;
-        margin: auto 0;
+        margin: auto 10px;
         text-transform: uppercase;
     }
+
+    .coming-soon{
+        
+    }
     
+    .coming-soon:active{
+        color: $coming-soon-color;
+    }
+
+    .coming-soon:active::before{
+        transition: all 2s;
+        content:'coming soon!';
+        position: absolute;
+        top: 20px;
+        margin-left: -50px; 
+        color: white;
+    }
 }
 
 .main{
@@ -147,13 +164,13 @@ a{
 .footer{
     margin: 0 12%;
     .pedro-pointer{
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid $red-color;
     }
     .pedro-pointer:hover{
         cursor: url('../images/pedro_pointer.png'),auto;
     }
     .ben-pointer{
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid $red-color;
     }
     .ben-pointer:hover{
         cursor: url('../images/ben_bw_pointer.png'),auto;
