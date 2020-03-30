@@ -90,8 +90,22 @@ a {
 
 .nav .nav-menu-text {
   font-size: 1.5em;
-  margin: auto 0;
+  margin: auto 10px;
   text-transform: uppercase;
+}
+
+.nav .coming-soon:active {
+  color: #8e8e8e;
+}
+
+.nav .coming-soon:active::before {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  content: 'coming soon!';
+  position: absolute;
+  top: 20px;
+  margin-left: -50px;
+  color: white;
 }
 
 .main {
