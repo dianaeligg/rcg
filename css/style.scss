@@ -24,10 +24,6 @@ a {
   text-decoration: none;
 }
 
-div {
-  border: red 1px solid;
-}
-
 .marquee {
   display: flex;
 
@@ -124,9 +120,11 @@ div {
   }
 
   .linky {
-    padding: 10px 25px;
+    padding: 10px;
     position: relative;
     color: $font-color;
+    font-size: 1.1em;
+    font-weight: bold;
   }
 
   .linky::before {
@@ -141,23 +139,24 @@ div {
     transition: all 0.2s ease-in-out;
   }
 
-  .linky::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transform: rotate(-3deg);
-    border: 1px solid $font-color;
-  }
+//   .linky::after {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+//     transform: rotate(-3deg);
+//     border: 1px solid $font-color;
+//   }
 
   .linky:hover {
     color: $background-color;
+    cursor: default;
   }
 
   .linky:hover::before {
-    transform: translate(2px, -4px);
+    transform: translate(2px, -4px) rotate(-3deg);
     background-color: $red-color;
   }
 }
@@ -258,9 +257,6 @@ div {
 }
 
 @media only screen and (max-width: 1276px) {
-  div {
-    border: 1px solid blue;
-  }
   .nav {
     flex-flow: column;
     height: 12rem;
@@ -278,9 +274,6 @@ div {
 }
 
 @media only screen and (max-width: 1080px) {
-  div {
-    border: 1px solid purple;
-  }
   .nav {
     .main-logo-text {
       font-size: 1.2em;
@@ -306,9 +299,6 @@ div {
 }
 
 @media only screen and (max-width: 780px) {
-  div {
-    border: 1px yellow solid;
-  }
   .nav {
     .nav-col {
       width: 80%;

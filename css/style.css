@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-div {
-  border: red 1px solid;
-}
-
 .marquee {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,9 +139,11 @@ div {
 }
 
 .main .linky {
-  padding: 10px 25px;
+  padding: 10px;
   position: relative;
   color: #fefefe;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .main .linky::before {
@@ -161,25 +159,14 @@ div {
   transition: all 0.2s ease-in-out;
 }
 
-.main .linky::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
-  border: 1px solid #fefefe;
-}
-
 .main .linky:hover {
   color: #1a1a1a;
+  cursor: default;
 }
 
 .main .linky:hover::before {
-  -webkit-transform: translate(2px, -4px);
-          transform: translate(2px, -4px);
+  -webkit-transform: translate(2px, -4px) rotate(-3deg);
+          transform: translate(2px, -4px) rotate(-3deg);
   background-color: red;
 }
 
@@ -302,9 +289,6 @@ div {
 }
 
 @media only screen and (max-width: 1276px) {
-  div {
-    border: 1px solid blue;
-  }
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -331,9 +315,6 @@ div {
 }
 
 @media only screen and (max-width: 1080px) {
-  div {
-    border: 1px solid purple;
-  }
   .nav .main-logo-text {
     font-size: 1.2em;
     white-space: pre-wrap;
@@ -351,9 +332,6 @@ div {
 }
 
 @media only screen and (max-width: 780px) {
-  div {
-    border: 1px yellow solid;
-  }
   .nav .nav-col {
     width: 80%;
   }
