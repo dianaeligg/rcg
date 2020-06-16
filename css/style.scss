@@ -3,315 +3,334 @@ $font-color: #fefefe;
 $coming-soon-color: #8e8e8e;
 $red-color: red;
 
-body{
-    background: $background-color;
-    margin: 0;
-    // font-family: 'Montserrat', sans-serif;
-    font-family: 'Libre Baskerville', sans-serif;
-    color: $font-color;
-    padding-bottom: 1em;
+body {
+  background: $background-color;
+  margin: 0;
+  // font-family: 'Montserrat', sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
+  color: $font-color;
+  padding-bottom: 1em;
 }
 
-#container{
-    width: 100vw;
-    height: 100vh;
-    background: $background-color;
-    display: flex;
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: $background-color;
+  display: flex;
 }
 
-a{
-    color: $font-color;
-    text-decoration: none;
+a {
+  color: $font-color;
+  text-decoration: none;
 }
 
-.marquee{
-    display:flex;
-    
-    .intelitext{
-        writing-mode: vertical-rl;
-        // text-orientation: upright;
-        // transform: rotate(90deg);
-        font-size: 2em;
-        margin: auto;
-        text-align: center
-    }
+div {
+  border: red 1px solid;
 }
 
-.nav{
-    width: 100%;
-    height: 125px;
-    display: flex;
-    .nav-col{
-        flex: 1;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .nav-col-mid{
-        display:block;
-    }
-    .social-media-div{
-        margin: auto 0;
-        height: 50%;
-        // flex:1;
-        a{
-            margin: auto 0;
-        }
-        .fa-icon{
-            padding: 0 2px;
-            font-size: 1.5em;
-            margin: auto 0;
-        }
-        // .fa-icon:hover{
-        //     font-size: 1.8em;
-        // }
-    }
-    .main-logo-text{
-        margin: auto;
-        font-size: 2.1em;
-        // flex: 1;
-        white-space: nowrap;
-        text-transform: uppercase;
-        img{
-            position: absolute;
-            height: 1.1em;
-            margin: 0 0px 0 -4px;
-        }
-    }
+.marquee {
+  display: flex;
 
-    .nav-menu-text{
-        font-size: 1.5em;
-        margin: auto 10px;
-        text-transform: uppercase;
-    }
-
-    .coming-soon{
-        
-    }
-    
-    .coming-soon:active{
-        color: $coming-soon-color;
-    }
-
-    .coming-soon:active::before{
-        transition: all 2s;
-        content:'coming soon!';
-        position: absolute;
-        top: 20px;
-        margin-left: -50px; 
-        color: white;
-    }
-}
-
-.main{
-    margin: 0 12%;
-
-    .main-paragraph{
-        line-height: 3em;
-        margin: 30px 0;
-    }
-
-    .main-pic{
-        text-align: center;
-        display: flex;
-        margin: auto;
-        img{
-            height: 500px;
-        }
-    }
-
-    .linky {
-        padding: 10px 25px;
-        position: relative;
-        color: $font-color;
-        
-    }
-    
-    .linky::before {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 5px;
-        right: 1px;
-        background-color: $background-color;
-        z-index: -1;
-        transition: all .2s ease-in-out;
-    }
-    
-    .linky::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        transform: rotate(-3deg);
-        border: 1px solid $font-color;
-    }
-
-    .linky:hover{
-        color: $background-color;
-    }
-    
-    .linky:hover::before {
-        transform: translate(2px, -4px);
-        background-color: $red-color;
-  
-    }
-}
-
-.footer{
-    margin: 0 12%;
-    .pedro-pointer{
-        border-bottom: 3px solid $red-color;
-    }
-    .pedro-pointer:hover{
-        cursor: url('../images/pedro_pointer.png'),auto;
-    }
-    .ben-pointer{
-        border-bottom: 3px solid $red-color;
-    }
-    .ben-pointer:hover{
-        cursor: url('../images/ben_bw_pointer.png'),auto;
-    }
-    .dianaeli{
-        margin: 40px auto;
-        color: #a3a3a3;
-        text-align:center;
-        font-size: .8em;
-        a{
-            color: #a3a3a3;
-            transition: all .2s ease-in-out;
-            padding: 10px;
-            border-radius: 50%;
-        }
-        a:hover{
-            background: #00b2ca;
-            
-            color: #f3f3f3;
-        }
-    }
-}
-
-.floaty{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    font-size: 2.5em;
-}
-
-.rcg-text{
-    margin: 2em auto;
-    display: block;
+  .intelitext {
+    writing-mode: vertical-rl;
+    // text-orientation: upright;
+    // transform: rotate(90deg);
     font-size: 2em;
+    margin: auto;
+    text-align: center;
+  }
 }
 
-
-.episode{
-    margin: 20px 0;
-    border: 2px solid #ccc;
-    padding: 5px;
-    border-radius: 5px;
+.nav {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  .nav-col {
+    flex: 1;
+    margin: auto;
     display: flex;
-    .episode-image{
-        margin: auto;
-        img{
-            height: 200px;
-        }
+    justify-content: center;
+  }
+  .logo {
+    display: block;
+    .main-logo-text {
+      margin: auto;
+      font-size: 2.1em;
+      white-space: nowrap;
+      text-transform: uppercase;
+      img {
+        position: absolute;
+        height: 1.1em;
+        margin: 0 0px 0 -4px;
+      }
     }
-    .episode-body{
-        flex: 1;
-        margin-top: .5em;
-        margin-left: 1em;
-        .episode-title{
-            font-weight: bolder;
-            font-size: 1.5em;
-            width: 90%;
-        }
-        .episode-season-info{
-            margin: 5px 10px;
-        }
-        .episode-guest{
-            margin: 5px 10px;
-        }
-        .episode-additional-info{
-            color: #999;
-            margin: 5px 10px;
-            font-size: .8em;
-        }
-        iframe{
-            margin-top: 10px;
-            width: 98%;
-        }
+    .main-logo-subtitle {
+      font-size: 1rem;
+      text-align: left;
     }
-    .episode-social-media{
-        position: relative;
-        right: 0px;
-        bottom: 0px;
-        height: 1em;
-        flex: 0;
-        .fa-icon{
-            padding: 0 3px;
-        }
+  }
+  .social-media-div {
+    margin: auto 0;
+    height: 50%;
+    a {
+      margin: auto 0;
     }
+    .fa-icon {
+      padding: 0 2px;
+      font-size: 1.5em;
+      margin: auto 0;
+    }
+  }
+
+  .nav-menu-text {
+    font-size: 1.5em;
+    margin: auto 10px;
+    text-transform: uppercase;
+  }
+
+  .coming-soon {
+    color: $coming-soon-color;
+  }
+
+  .coming-soon:active {
+    color: $coming-soon-color;
+  }
+
+  .coming-soon:active::before {
+    transition: all 2s;
+    content: "coming soon!";
+    position: absolute;
+    top: 20px;
+    margin-left: -50px;
+    color: white;
+  }
+}
+
+.main {
+  margin: 0 12%;
+
+  .main-paragraph {
+    line-height: 3em;
+    margin: 30px 0;
+  }
+
+  .main-pic {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    img {
+      height: 500px;
+    }
+  }
+
+  .linky {
+    padding: 10px 25px;
+    position: relative;
+    color: $font-color;
+  }
+
+  .linky::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 5px;
+    right: 1px;
+    background-color: $background-color;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .linky::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: rotate(-3deg);
+    border: 1px solid $font-color;
+  }
+
+  .linky:hover {
+    color: $background-color;
+  }
+
+  .linky:hover::before {
+    transform: translate(2px, -4px);
+    background-color: $red-color;
+  }
+}
+
+.footer {
+  margin: 0 12%;
+  .pedro-pointer {
+    border-bottom: 3px solid $red-color;
+  }
+  .pedro-pointer:hover {
+    cursor: url("../images/pedro_pointer.png"), auto;
+  }
+  .ben-pointer {
+    border-bottom: 3px solid $red-color;
+  }
+  .ben-pointer:hover {
+    cursor: url("../images/ben_bw_pointer.png"), auto;
+  }
+  .dianaeli {
+    margin: 40px auto;
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 0.8em;
+    a {
+      color: #a3a3a3;
+      transition: all 0.2s ease-in-out;
+      padding: 10px;
+      border-radius: 50%;
+    }
+    a:hover {
+      background: #00b2ca;
+
+      color: #f3f3f3;
+    }
+  }
+}
+
+.floaty {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 2.5em;
+}
+
+.rcg-text {
+  margin: 2em auto;
+  display: block;
+  font-size: 2em;
+}
+
+.episode {
+  margin: 20px 0;
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  .episode-image {
+    margin: auto;
+    img {
+      height: 200px;
+    }
+  }
+  .episode-body {
+    flex: 1;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    .episode-title {
+      font-weight: bolder;
+      font-size: 1.5em;
+      width: 90%;
+    }
+    .episode-season-info {
+      margin: 5px 10px;
+    }
+    .episode-guest {
+      margin: 5px 10px;
+    }
+    .episode-additional-info {
+      color: #999;
+      margin: 5px 10px;
+      font-size: 0.8em;
+    }
+    iframe {
+      margin-top: 10px;
+      width: 98%;
+    }
+  }
+  .episode-social-media {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    height: 1em;
+    flex: 0;
+    .fa-icon {
+      padding: 0 3px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1276px) {
+  div {
+    border: 1px solid blue;
+  }
+  .nav {
+    flex-flow: column;
+    height: 12rem;
+    .nav-col{
+        flex: none;
+        margin: 0.5rem auto;
+    }
+    .logo {
+      order: 0;
+    }
+    .site-menu {
+      order: 1;
+    }
+  }
 }
 
 @media only screen and (max-width: 1080px) {
-    .nav{
-        .main-logo-text{
-            font-size:1.5em;
-        }
-        .nav-menu-text{
-            font-size: 1.2em;
-        }
-        .social-media-div{
-            .fa-icon{
-                font-size: 1.2em;
-            }
-        }
+  div {
+    border: 1px solid purple;
+  }
+  .nav {
+    .main-logo-text {
+      font-size: 1.2em;
+      white-space: pre-wrap;
     }
-    .main{
-        .main-pic{
-            img{
-                width: 600px;
-                height: auto;
-            }
-        }
+    .nav-menu-text {
+      font-size: 1em;
     }
-}
-@media only screen and (max-width: 900px) {
-    .nav{
-        .main-logo-text{
-            font-size:1.2em;
-            white-space: pre-wrap;
-        }
-        .nav-menu-text{
-            font-size: 1em;
-        }
-        .social-media-div{
-            .fa-icon{
-                font-size: 1em;
-            }
-        }
+    .social-media-div {
+      .fa-icon {
+        font-size: 1em;
+      }
     }
-    .main{
-        .main-pic{
-            img{
-                width: 300px;
-                height: auto;
-            }
-        }
+  }
+  .main {
+    .main-pic {
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
+  }
 }
 
 @media only screen and (max-width: 780px) {
-    .episode{
-        .episode-body{
-            font-size: .7em;
-            .episode-title{
-                font-size: 1em;
-            }
-        }
+  div {
+    border: 1px yellow solid;
+  }
+  .nav {
+    .nav-col {
+      width: 80%;
     }
+    .logo {
+      .main-logo-text {
+        font-size: 1.3rem;
+        img {
+          height: 1.3rem;
+        }
+      }
+      .main-logo-subtitle {
+        font-size: 0.6rem;
+      }
+    }
+  }
+  .episode {
+    .episode-body {
+      font-size: 0.7em;
+      .episode-title {
+        font-size: 1.5em;
+      }
+    }
+  }
 }
