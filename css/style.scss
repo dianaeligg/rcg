@@ -139,16 +139,16 @@ a {
     transition: all 0.2s ease-in-out;
   }
 
-//   .linky::after {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     height: 100%;
-//     width: 100%;
-//     transform: rotate(-3deg);
-//     border: 1px solid $font-color;
-//   }
+  //   .linky::after {
+  //     content: "";
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     height: 100%;
+  //     width: 100%;
+  //     transform: rotate(-3deg);
+  //     border: 1px solid $font-color;
+  //   }
 
   .linky:hover {
     color: $background-color;
@@ -260,9 +260,9 @@ a {
   .nav {
     flex-flow: column;
     height: 12rem;
-    .nav-col{
-        flex: none;
-        margin: 0.5rem auto;
+    .nav-col {
+      flex: none;
+      margin: 0.5rem auto;
     }
     .logo {
       order: 0;
@@ -320,6 +320,33 @@ a {
       font-size: 0.7em;
       .episode-title {
         font-size: 1.5em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav {
+    .logo {
+      .main-logo-text {
+        white-space: normal;
+      }
+    }
+    .social-media-div {
+      flex-flow: column;
+    }
+  }
+  .episode {
+    flex-flow: column;
+    .episode-body {
+        margin: 0;
+      width: 100%;
+      .episode-title {
+        margin: auto;
+        text-align: center;
+      }
+      .iframe{
+          margin: 0;
       }
     }
   }

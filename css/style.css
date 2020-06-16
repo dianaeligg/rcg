@@ -351,4 +351,33 @@ a {
     font-size: 1.5em;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .nav .logo .main-logo-text {
+    white-space: normal;
+  }
+  .nav .social-media-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .episode {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .episode .episode-body {
+    margin: 0;
+    width: 100%;
+  }
+  .episode .episode-body .episode-title {
+    margin: auto;
+    text-align: center;
+  }
+  .episode .episode-body .iframe {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
